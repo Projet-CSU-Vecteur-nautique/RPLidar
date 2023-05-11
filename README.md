@@ -6,7 +6,7 @@
 
 Nous avons testé le lidar sur ROS en suivant les instructions suivantes : [rpilidar_ros](https://github.com/slamtec/rplidar_ros).
 
-*Noter que suivre ces instructions nécessite l'installation de [ROS]().*
+*Noter que suivre ces instructions nécessite l'installation de [ROS](http://wiki.ros.org/noetic/Installation).*
 
 ## Liens
 
