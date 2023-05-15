@@ -122,12 +122,20 @@ time_increment: 0.0001053173909895122
 scan_time: 0.07993589341640472
 range_min: 0.15000000596046448
 range_max: 12.0
-ranges: [inf, inf, 0.22699, 0.22699, 0.22699, inf, ... inf]
+ranges: [inf, inf, 0.22699, 0.22699, 0.22699, inf, ..., inf]
 intensities: [0.0, 0.0, 47.0, 47.0, ..., 0.0, 47.0]
 ---
 ```
 
 On remarque ici que le lidar possède un angle de balayage de 360°, une portée de 0.15 à 12.0 mètres et un temps de résolution de 0.08 secondes.
+
+### Informations électrique
+
+Le rplidar fonctionne avec une tension opérationnelle de 5V et un courant maximum de 600mA.
+
+*Un pic de 1500mA peut être observé au démarrage.*
+
+*Pour plus d'informations, [consulter la fiche technique](docs/rplidar_manuel_utilisateur.pdf).*
 
 ## Liens
 
