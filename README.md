@@ -137,6 +137,10 @@ Le rplidar fonctionne avec une tension opérationnelle de 5V et un courant maxim
 
 *Pour plus d'informations, [consulter la fiche technique](docs/rplidar_manuel_utilisateur.pdf).*
 
+## Filtrage des messages
+
+Nous avons pu observer que le RPLidar renvoie par défaut un tableau de 360 éléments au travers du message LaserScan. Certains système tels qu'Ardupilot n'acceptent pas autant de données. Avant de transmettre les données du Lidar, il nous faudra donc les adapter. Pour cela, nous utilisons un filtre, chargé de transformer le message selon le format désiré.
+
 ## Liens
 
 - [RPlidar A2M8](https://www.slamtec.ai/home/rplidar_a2/)
