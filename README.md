@@ -8,7 +8,7 @@ Nous avons testé le lidar sur ROS en suivant les instructions suivantes : [rpil
 
 *Noter que suivre ces instructions nécessite l'installation de [ROS](http://wiki.ros.org/noetic/Installation).*
 
-*Il est également possible d'installer ROS en passant par Docker: [tutoriel](https://github.com/allantarcy/ros_gui_with_docker).*
+*Il est également possible d'installer ROS en passant par Docker. *
 
 Vous pouvez utiliser les instructions suivantes pour installer ros avec Docker:
 
